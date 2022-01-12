@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AuthMVVM</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="password_req_characters">At least 8 characters</string>
+    <string name="password_req_capital">At least 1 upper-case letter characters</string>
+    <string name="password_req_digit">At least 1 digit</string>
+    <string name="number_req">Enter a valid mobile number</string>
+    <string name="label_sign_in_to_account">Sign In to your account</string>
+    <string name="label_sign_up_for_account">Sign Up for an account</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_password">Password</string>
+    <string name="cd_show_password">Show Password</string>
+    <string name="cd_hide_password">Hide Password</string>
+    <string name="password_requirement_satisfied">%s, satisfied</string>
+    <string name="password_requirement_needed">%s, needed</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_need_account">Need an account?</string>
+    <string name="action_already_have_account">Already have an account?</string>
+    <string name="error_title">Whoops</string>
+    <string name="error_action">OK</string>
+</resources>
