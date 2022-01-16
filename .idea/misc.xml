@@ -3,8 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/testApps/AuthMVVM/app/src/main/res/layout/activity_main.xml" value="0.2552083333333333" />
-        <entry key="..\:/testApps/AuthMVVM/app/src/main/res/layout/fragment_dashboard.xml" value="0.128125" />
+        <entry key="..\:/testApps/AuthMVVM/app/src/main/res/layout/activity_main.xml" value="0.10400000000000001" />
+        <entry key="..\:/testApps/AuthMVVM/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
         <entry key="..\:/testApps/AuthMVVM/app/src/main/res/layout/fragment_login.xml" value="0.2552083333333333" />
         <entry key="..\:/testApps/AuthMVVM/app/src/main/res/layout/fragment_register.xml" value="0.2552083333333333" />
       </map>

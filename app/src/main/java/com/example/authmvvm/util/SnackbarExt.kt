@@ -1,4 +1,4 @@
-package com.example.authmvvm.others
+package com.example.authmvvm.util
 
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar

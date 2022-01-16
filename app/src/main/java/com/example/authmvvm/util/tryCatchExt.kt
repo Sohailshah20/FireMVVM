@@ -1,4 +1,4 @@
-package com.example.authmvvm.others
+package com.example.authmvvm.util
 
 inline fun <T> safeCall(action:() -> Response<T>) : Response<T> {
     return try {

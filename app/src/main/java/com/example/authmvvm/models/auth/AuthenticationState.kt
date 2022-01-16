@@ -1,6 +1,6 @@
-package com.example.authmvvm.auth.data
+package com.example.authmvvm.models.auth
 
-import com.example.authmvvm.auth.PasswordRequirements
+import com.example.authmvvm.models.PasswordRequirements
 
 data class AuthenticationState(
     //User Input

@@ -1,14 +1,14 @@
-package com.example.authmvvm.auth.ui
+package com.example.authmvvm
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.authmvvm.R
 
 
-class RegisterFragment : Fragment() {
+class dashboard : Fragment(R.layout.fragment_dashboard) {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +20,7 @@ class RegisterFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_register, container, false)
+        return inflater.inflate(R.layout.fragment_dashboard, container, false)
     }
 
 

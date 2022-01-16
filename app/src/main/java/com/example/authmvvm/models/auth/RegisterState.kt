@@ -1,7 +1,7 @@
-package com.example.authmvvm.auth.Authmodels
+package com.example.authmvvm.models.auth
 
-import com.example.authmvvm.auth.NumberRequirements
-import com.example.authmvvm.auth.PasswordRequirements
+import com.example.authmvvm.models.NumberRequirements
+import com.example.authmvvm.models.PasswordRequirements
 
 data class RegisterState(
     val number: String? = null,

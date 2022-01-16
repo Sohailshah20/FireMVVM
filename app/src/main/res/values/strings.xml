@@ -26,4 +26,6 @@
     <string name="action_already_have_account">Already have an account?</string>
     <string name="error_title">Whoops</string>
     <string name="error_action">OK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

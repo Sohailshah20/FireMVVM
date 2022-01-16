@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/login">
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.authmvvm.login"
+        android:label="login" >
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/register" />
+        <action
+            android:id="@+id/action_login_to_dashboard2"
+            app:destination="@id/dashboard2" />
+    </fragment>
+    <fragment
+        android:id="@+id/register"
+        android:name="com.example.authmvvm.register"
+        android:label="register" />
+    <fragment
+        android:id="@+id/dashboard2"
+        android:name="com.example.authmvvm.dashboard"
+        android:label="dashboard" />
+</navigation>

@@ -1,4 +1,4 @@
-package com.example.authmvvm.others
+package com.example.authmvvm.util
 
 class Event<out T>(private val content: T) {
     var hasBeenHandled = false

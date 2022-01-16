@@ -1,8 +1,9 @@
-package com.example.authmvvm.auth.Authmodels
+package com.example.authmvvm.models.data
 
 data class User(
     val uid: String = "",
     val username: String = "",
+    val email: String = "",
     val number: String = "",
     val docsVerified: Boolean = false,
     val age: String = "",

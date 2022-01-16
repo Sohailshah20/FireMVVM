@@ -1,4 +1,4 @@
-package com.example.authmvvm.others
+package com.example.authmvvm.util
 
 sealed class Response<out T> {
     object Loading: Response<Nothing>()

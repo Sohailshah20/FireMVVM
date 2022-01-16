@@ -1,4 +1,4 @@
-package com.example.authmvvm.auth
+package com.example.authmvvm.models
 
 import androidx.annotation.StringRes
 import com.example.authmvvm.R
