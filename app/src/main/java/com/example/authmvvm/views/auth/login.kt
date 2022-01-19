@@ -1,4 +1,4 @@
-package com.example.authmvvm
+package com.example.authmvvm.views.auth
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
+import com.example.authmvvm.R
 import com.example.authmvvm.models.auth.AuthViewModel
 import com.example.authmvvm.databinding.FragmentLoginBinding
 import com.example.authmvvm.util.Response
@@ -60,6 +61,7 @@ class login : Fragment(R.layout.fragment_login) {
                         when(response){
                             is Response.Success ->{
                                 findNavController().navigate(R.id.action_login_to_dashboard2)
+
                             }
                             is Response.Error ->{
                                 snackbar("Error")

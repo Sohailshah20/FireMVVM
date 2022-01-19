@@ -20,6 +20,9 @@ class AuthViewModel @Inject constructor(
     val authState : StateFlow<Response<AuthResult>> = _authState
 
 
+
+
+
 //    fun handleEvent(authenticationEvent: AuthEvent) {
 //        when (authenticationEvent) {
 //
@@ -69,6 +72,13 @@ class AuthViewModel @Inject constructor(
     ){
         viewModelScope.launch(Dispatchers.Main) {
             val result = repository.login(email, password)
+            _authState.value = result
+        }
+    }
+
+    fun logOut(){
+        viewModelScope.launch(Dispatchers.Main) {
+            val result = repository.logOut()
             _authState.value = result
         }
     }

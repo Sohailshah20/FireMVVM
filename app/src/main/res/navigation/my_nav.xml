@@ -6,7 +6,7 @@
     app:startDestination="@id/login">
     <fragment
         android:id="@+id/login"
-        android:name="com.example.authmvvm.login"
+        android:name="com.example.authmvvm.views.auth.login"
         android:label="login" >
         <action
             android:id="@+id/action_login_to_register"
@@ -17,10 +17,10 @@
     </fragment>
     <fragment
         android:id="@+id/register"
-        android:name="com.example.authmvvm.register"
+        android:name="com.example.authmvvm.views.auth.register"
         android:label="register" />
     <fragment
         android:id="@+id/dashboard2"
-        android:name="com.example.authmvvm.dashboard"
+        android:name="com.example.authmvvm.views.auth.dashboard"
         android:label="dashboard" />
 </navigation>

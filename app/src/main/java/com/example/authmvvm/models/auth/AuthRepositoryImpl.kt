@@ -1,5 +1,6 @@
 package com.example.authmvvm.models.auth
 
+import android.util.Log
 import com.example.authmvvm.models.data.User
 import com.example.authmvvm.util.Response
 import com.example.authmvvm.util.safeCall
@@ -26,6 +27,7 @@ class AuthRepositoryImpl: AuthRepository {
                 val uid = result.user?.uid!!
                 val user = User(uid, number, email)
                 users.document(uid).set(user).await()
+                Log.d("users", users.toString())
                 Response.Success(result)
             }
         }
@@ -43,5 +45,15 @@ class AuthRepositoryImpl: AuthRepository {
             }
         }
 
+
+    }
+
+    override suspend fun logOut(): Response<Unit> {
+        return withContext(Dispatchers.IO) {
+            safeCall {
+                val result = auth.signOut()
+                Response.Success(result)
+            }
+        }
     }
 }

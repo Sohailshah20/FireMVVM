@@ -1,10 +1,8 @@
-package com.example.authmvvm
+package com.example.authmvvm.views.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.lifecycle.ViewModelProvider
-import com.example.authmvvm.models.auth.AuthViewModel
-import com.example.authmvvm.databinding.ActivityMainBinding
+import com.example.authmvvm.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
